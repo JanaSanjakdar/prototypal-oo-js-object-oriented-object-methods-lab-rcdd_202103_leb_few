@@ -5,5 +5,9 @@ function BoardMember (name, homestate, training){
 } 
 
 BoardMember.prototype.veto = function() {
-  console.log(`Hello everybody, my name is ${this.name}`);
+  console.log(`No, I must disagree`);
 };
+
+BoardMember.prototype.approve =function(){
+  console.log('')
+}
